@@ -1,0 +1,25 @@
+
+#snakeGrid {
+    display: flex;
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+}
+
+#square:after {
+    content: "";
+    display: inline-block;
+    padding-bottom: 100%;
+}
+
+#progressBar {
+    width: 50%;
+}
+
+canvas {
+    background-color: bisque;
+}
+
+html {
+    overflow: hidden;
+}
