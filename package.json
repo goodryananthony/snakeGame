@@ -4,6 +4,7 @@
   "description": "Implementation of Snake for the final project for COMP 426",
   "main": "index.js",
   "scripts": {
+    "build":  "webpack --config webpack.dev.js",
     "client": "npx browser-sync start -sw",
     "server": "node server.js",
     "start": "concurrently --kill-others 'npm run client' 'npm run server'"
