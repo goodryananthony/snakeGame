@@ -17,8 +17,9 @@ jobs:
         node-version: '12.x'
     - run: yarn
     - run: yarn run build
-    - run: server
-    - run: start
+    - run: yarn run client
+    - run: yarn run server
+    - run: yarn run start
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
