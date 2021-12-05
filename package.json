@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jdmar3-comp426/a99-segfault.git"
+    "url": "git+https://github.com/goodryananthony/snakeGame.git"
   },
   "author": "segfault",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jdmar3-comp426/a99-segfault/issues"
+    "url": "https://github.com/goodryananthony/snakeGame/issues"
   },
-  "homepage": "https://github.com/jdmar3-comp426/a99-segfault#readme",
+  "homepage": "https://goodryananthony.github.io/snakeGame/",
   "dependencies": {
     "better-sqlite3": "^7.4.5",
     "browser-sync": "^2.27.7",
