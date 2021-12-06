@@ -353,6 +353,7 @@ function generateEntity(exclude = null) {
 
 window.addEventListener("load", function() {
     init_game();
+    setTimeout( () => {alert('Press Spacebar to pause/unpause the game'); }, 100);
 });
 
 // Initialize canvas/corresponding attributes for GridManager
