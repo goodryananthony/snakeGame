@@ -411,6 +411,7 @@ window.addEventListener("keydown", function (event) {
                 }
             }
             break;
+        case "a":
         case "ArrowLeft":
             event.preventDefault();
             if (!GridManager.isPaused) {
@@ -419,6 +420,7 @@ window.addEventListener("keydown", function (event) {
                 }
             }
             break;
+        case "d":
         case "ArrowRight":
             event.preventDefault();
             if (!GridManager.isPaused) {
@@ -427,6 +429,7 @@ window.addEventListener("keydown", function (event) {
                 }
             }
             break;
+        case "w":
         case "ArrowUp":
             event.preventDefault();
             if (!GridManager.isPaused) {
@@ -435,6 +438,7 @@ window.addEventListener("keydown", function (event) {
                 }
             }
             break;
+        case "s":
         case "ArrowDown":
             event.preventDefault();
             inputProcessed = false;
