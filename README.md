@@ -1,3 +1,7 @@
+# Github Pages Link
+
+https://goodryananthony.github.io/snakeGame/
+
 # Snake
 
 This is our final project for the Fall 2021 COMP 426 Web Programming at UNC. We implemented the game Snake using JavaScript, HTML, and CSS, with interfacing to an SQL database to store users and scores. 
